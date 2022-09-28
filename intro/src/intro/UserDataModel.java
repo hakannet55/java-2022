@@ -1,19 +1,25 @@
 package intro;
 
 public interface UserDataModel {
-	String name="";
-	int id=-1;
-	boolean durum=false;
+	String name = "";
+	int id = -1;
+	boolean durum = false;
 }
 
-class UserModelCls{
-	UserDataModel value;
-	 UserModelCls(String name){
-		 UserDataModel() itm;
-		 e
+class UserModelCls {
+	String name;
+	int id;
+
+	UserModelCls(String name, int id) {
+		this.name = name;
+		this.id = id;
 	}
-	
-	UserDataModel getName(){
-		return value;
+
+	public String getName() {
+		return this.name;
+	}
+
+	public int getId() {
+		return this.id;
 	}
 }
