@@ -16,7 +16,15 @@ public class Main {
             System.out.println("ürün: " + item.getName());
         }
 
+        IndvidualCustomer induvualCustomer = new IndvidualCustomer();
+        induvualCustomer.setId(1);
+        induvualCustomer.setName("Müşteri-1");
 
+        CorporateCustomer customer2 = new CorporateCustomer();
+        customer2.setId(2);
+        customer2.setCompanyName("Company-1");
+
+        Customer[] customerList = {induvualCustomer, customer2};
     }
 
 }
