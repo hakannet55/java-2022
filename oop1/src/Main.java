@@ -1,5 +1,15 @@
+import logger.Logger;
+
 public class Main {
     public static void main(String[] args) {
+        start1();
+
+        /// start logger
+        new Logger().start();
+    }
+
+    public static void start1() {
+
         Product product1 = new Product(), product2 = new Product();
 
         // Set vals

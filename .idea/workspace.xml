@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="dev-odev-update-2">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritence2/BaseKrediManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritence2/Inheritance2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritence2/KrediUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritence2/OgretmenKrediManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritence2/TarimKrediManager.java" afterDir="false" />
+    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="dev-odev-update-3">
+      <change afterPath="$PROJECT_DIR$/oop1/src/logger/BaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop1/src/logger/DatabaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop1/src/logger/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop1/src/logger/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-2/odev-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/odev-2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop1/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +68,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="logger" />
       <recent name="inheritence-2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -130,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664441768390</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dev-odev-update-3">
+      <created>1664461757108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664461757108</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +151,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dev-project-update" />
     <MESSAGE value="dev-odev-update-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev-odev-update-2" />
+    <MESSAGE value="dev-odev-update-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev-odev-update-3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
