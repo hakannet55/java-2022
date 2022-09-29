@@ -22,6 +22,9 @@ public class Main {
         // start another class in function
         new ClassesWithAttribute().start();
 
+        // start MethodOverloading
+        new MethodOverloading().start();
+
     }
 
 

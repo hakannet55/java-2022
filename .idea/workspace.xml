@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="dev-project-update">
+    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="dev-odev-update-2">
+      <change afterPath="$PROJECT_DIR$/odev-2/src/MethodOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritance/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritance/CustomerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritance/EmployManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritance/PersonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/inheritance/inheritance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-2/src/ClassesWithAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/src/ClassesWithAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-2/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/src/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-2/src/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/src/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odev-2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664439235032</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dev-odev-update-2">
+      <created>1664440908119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664440908119</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dev-project-update" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev-project-update" />
+    <MESSAGE value="dev-odev-update-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev-odev-update-2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
