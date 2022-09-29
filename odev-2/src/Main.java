@@ -1,3 +1,5 @@
+import inheritence2.Inheritance2;
+
 public class Main {
     // Class sample examples
     public static void main(String[] args) {
@@ -24,6 +26,9 @@ public class Main {
 
         // start MethodOverloading
         new MethodOverloading().start();
+
+        // start Inheritance2 Kredi
+        new Inheritance2().start();
 
     }
 
