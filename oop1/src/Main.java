@@ -1,3 +1,4 @@
+import abstracttest.AbstractTest;
 import logger.Logger;
 
 public class Main {
@@ -6,6 +7,9 @@ public class Main {
 
         /// start logger
         new Logger().start();
+
+        /// start Abstrat
+        new AbstractTest().start();
     }
 
     public static void start1() {
