@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="dev-project-update">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop1/src/CorporateCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop1/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop1/src/IndvidualCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/ClassesWithAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/CustomerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/functions/DortIslem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-2/src/functions/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odev-2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664387327111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dev-project-update">
+      <created>1664388096026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664388096026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
