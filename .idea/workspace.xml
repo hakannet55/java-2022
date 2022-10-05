@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-file_logger-base-logger-2">
+    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-file_logger-base-logger-3">
+      <change afterPath="$PROJECT_DIR$/odev-2/src/Lambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop2/src/app/logger/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop2/src/app/logger/FileLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odev-2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,14 @@
       <recent name="C:\Users\hakan.kuru\Desktop\java-2022\odev-2\src\inheritence-2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="odev-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="oop2" />
@@ -81,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -171,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665007051974</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="oop2-file_logger-base-logger-3">
+      <created>1665008161487</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665008161487</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +214,8 @@
     <MESSAGE value="dev-spring-boot-1" />
     <MESSAGE value="oop2-file_logger-base-logger" />
     <MESSAGE value="oop2-file_logger-base-logger-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop2-file_logger-base-logger-2" />
+    <MESSAGE value="oop2-file_logger-base-logger-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop2-file_logger-base-logger-3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
