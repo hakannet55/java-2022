@@ -25,9 +25,10 @@ public class FileLogger implements BaseLogger {
     }
 
     public void log(String data) {
-        try (FileWriter fw = new FileWriter(this.path, true);
-             BufferedWriter bw = new BufferedWriter(fw);
-             PrintWriter out = new PrintWriter(bw)) {
+        try {
+            FileWriter fw = new FileWriter(this.path, true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            PrintWriter out = new PrintWriter(bw);
             out.println(data);
             //more code
         } catch (IOException e) {
