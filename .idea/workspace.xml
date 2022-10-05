@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="dev-abstractsTest">
+    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="dev-spring-boot-1">
+      <change afterPath="$PROJECT_DIR$/oop2/oop2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/business/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/dataAccess/HibernateProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/dataAccess/JdbcProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/dataAccess/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/logger/BaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/logger/DatabaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/logger/EmailLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/logger/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/src/app/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,18 +62,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/hakan.kuru/Desktop/java-2022/spring-boot-1",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hakan.kuru/Desktop/java-2022&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="logger" />
@@ -69,6 +82,20 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hakan.kuru\Desktop\java-2022\odev-2\src\inheritence-2" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="oop2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664465087221</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dev-spring-boot-1">
+      <created>1664560404102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664560404102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,13 +184,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dev-project-update" />
     <MESSAGE value="dev-odev-update-2" />
     <MESSAGE value="dev-odev-update-3" />
     <MESSAGE value="dev-odev-update-4" />
     <MESSAGE value="dev-abstractsTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev-abstractsTest" />
+    <MESSAGE value="dev-spring-boot-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev-spring-boot-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
