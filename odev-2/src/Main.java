@@ -30,6 +30,9 @@ public class Main {
         // start Inheritance2 Kredi
         new Inheritance2().start();
 
+        // start lambda expresion
+        new Lambda().start();
+
     }
 
 
