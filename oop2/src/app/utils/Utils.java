@@ -1,6 +1,7 @@
 package app.utils;
 
 import app.logger.BaseLogger;
+import app.logger.FileLogger;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ public class Utils {
 
     public static void print(String str) {
         System.out.println(str);
+        new FileLogger().log(str);
     }
 
     public static void addLog(List<BaseLogger> loggers, String msg) {
