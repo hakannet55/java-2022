@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-file_logger-base-logger-3">
-      <change afterPath="$PROJECT_DIR$/odev-2/src/Lambda.java" afterDir="false" />
+    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-lambda-functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/BaseKrediManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/inheritence2/BaseKrediManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/Inheritance2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/inheritence2/Inheritance2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/KrediUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/inheritence2/KrediUI.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665008161487</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="oop2-lambda-functions">
+      <created>1665009032956</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665009032956</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +222,8 @@
     <MESSAGE value="oop2-file_logger-base-logger" />
     <MESSAGE value="oop2-file_logger-base-logger-2" />
     <MESSAGE value="oop2-file_logger-base-logger-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop2-file_logger-base-logger-3" />
+    <MESSAGE value="oop2-lambda-functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop2-lambda-functions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
