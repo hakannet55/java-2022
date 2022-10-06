@@ -17,7 +17,7 @@ public class KodlamaMain {
         // Logger type
         Configuration conf = new Configuration(new BaseDatabase());
         conf.setCurrency(CurrencyTypeEnum.TL);
-        conf.setLogType(LogTypeEnum.FILE);
+        conf.setLogType(LogTypeEnum.DATABASE);
 
         KursManager kursManager = new KursManager();
         KursProgramEntity kursProgramEntity = new KursProgramEntity();
