@@ -24,6 +24,7 @@ public class FileLogger implements IBaseLogger {
     @Override
     public void log(String message) {
         //Tool.print("File Log: " + message);
+        System.out.println("loggedFile:"+ message);
         try {
             FileWriter fw = new FileWriter(this.path, true);
             BufferedWriter bw = new BufferedWriter(fw);
