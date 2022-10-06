@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-lambda-functions">
-      <change afterPath="$PROJECT_DIR$/odev-3/odev-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odev-3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop1/ikinci_hafta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop2/üçüncü_hafta.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/ClassesWithAttribute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/CustomerManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Lambda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/MethodOverloading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/ProductManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/StringFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/functions/DortIslem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/functions/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/CustomerManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/EmployManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/PersonManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/inheritance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/BaseKrediManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/Inheritance2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/KrediUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/OgretmenKrediManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/TarimKrediManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop1/logger/DatabaseLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop1/logger/DatabaseLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/oop1/logger/FileLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop1/logger/FileLogger.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
