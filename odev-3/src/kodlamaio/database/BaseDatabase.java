@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BaseDatabase {
-    List<KursProgramEntity> kurs = new ArrayList<>();
-    List<KursKategoriEntity> kursKategoriEntity = new ArrayList<>();
+    List<KursProgramEntity> kurs = new ArrayList<KursProgramEntity>();
+    List<KursKategoriEntity> kursKategoriEntity = new ArrayList<KursKategoriEntity>();
 
     public void connect() {
         Tool.print("connect");

@@ -6,11 +6,11 @@ import java.io.*;
 
 public class FileLogger implements IBaseLogger {
     public String path;
-    public String globalPath = "C:/java/loggerFile.txt";
-    public String localPath = "loggerFile.txt";
+    public String globalPath = "C:/java/loggerFile.log";
+    public String localPath = "loggerFile.log";
 
     public FileLogger() {
-        this.path = this.localPath;
+        this.path = this.globalPath;
     }
 
     public FileLogger(String path) {
