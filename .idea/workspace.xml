@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-lambda-functions" />
+    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-lambda-functions">
+      <change afterPath="$PROJECT_DIR$/odev-3/odev-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odev-3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop1/ikinci_hafta.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop2/üçüncü_hafta.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/ClassesWithAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/CustomerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Lambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/MethodOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/ProductManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/StringFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/functions/DortIslem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/functions/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/CustomerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/EmployManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/PersonManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritance/inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/BaseKrediManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/Inheritance2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/KrediUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/OgretmenKrediManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/TarimKrediManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop1/logger/DatabaseLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop1/logger/DatabaseLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop1/logger/FileLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop1/logger/FileLogger.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,18 +79,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hakan.kuru/Desktop/java-2022&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/hakan.kuru/Desktop/java-2022/odev-3",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="logger" />
@@ -70,8 +102,9 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="odev-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,6 +112,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="oop2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="odev-3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="odev-3" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665009070586</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="oop2-lambda-functions">
+      <created>1665039252576</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665039252576</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
