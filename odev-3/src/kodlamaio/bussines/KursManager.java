@@ -3,6 +3,7 @@ package kodlamaio.bussines;
 import kodlamaio.Configuration;
 import kodlamaio.database.BaseDatabase;
 import kodlamaio.entity.BaseEntity;
+import kodlamaio.entity.KursKategoriEntity;
 import kodlamaio.entity.KursProgramEntity;
 import kodlamaio.utils.Tool;
 
@@ -32,6 +33,16 @@ public class KursManager implements BaseManager {
             Tool.print("Eklenemedi: aynı isim olamaz: "+ kursProgramEntity.getName() );
         }
         this.dbManager.insert(kursProgramEntity);
+    }
+
+    @Override
+    public void add(BaseEntity baseEntity) throws Exception {
+
+    }
+
+    @Override
+    public void add(KursKategoriEntity baseEntity) throws Exception {
+
     }
 
     @Override
