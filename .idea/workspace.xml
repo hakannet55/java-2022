@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-lambda-functions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/BaseKrediManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/inheritence2/BaseKrediManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/Inheritance2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/inheritence2/Inheritance2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/odev-2/inheritence2/KrediUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/odev-2/inheritence2/KrediUI.class" afterDir="false" />
-    </list>
+    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="oop2-lambda-functions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665009032956</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="oop2-lambda-functions">
+      <created>1665009070586</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665009070586</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
