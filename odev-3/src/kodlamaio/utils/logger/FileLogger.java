@@ -6,8 +6,8 @@ import java.io.*;
 
 public class FileLogger implements IBaseLogger {
     public String path;
-    public String globalPath = "C:/java/loggerFile.log";
-    public String localPath = "loggerFile.log";
+    public String globalPath = "C:/java/loggerFile.txt";
+    public String localPath = "loggerFile.txt";
 
     public FileLogger() {
         this.path = this.localPath;
@@ -23,7 +23,7 @@ public class FileLogger implements IBaseLogger {
 
     @Override
     public void log(String message) {
-        Tool.print("File Log: " + message);
+        //Tool.print("File Log: " + message);
         try {
             FileWriter fw = new FileWriter(this.path, true);
             BufferedWriter bw = new BufferedWriter(fw);
