@@ -1,8 +1,9 @@
 import interfacedeneme.interfaceDeneme;
+import kodlamaio.KodlamaMain;
 
 public class Main {
     // Class sample examples
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // referance type
         Utils.print("start-1");
 
@@ -16,6 +17,10 @@ public class Main {
 
         // video Java Dersi 44 demo
         new interfaceDeneme().start();
+
+        // Kodlama io
+        // Kurs kategori, kurs programı, database
+        new KodlamaMain().start();
 
     }
 
