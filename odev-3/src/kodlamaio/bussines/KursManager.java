@@ -5,13 +5,14 @@ import kodlamaio.database.BaseDatabase;
 import kodlamaio.entity.BaseEntity;
 import kodlamaio.entity.KursKategoriEntity;
 import kodlamaio.entity.KursProgramEntity;
+import kodlamaio.models.EntityTypesEnum;
 import kodlamaio.utils.Tool;
 
 import java.util.ArrayList;
 
 public class KursManager implements BaseManager {
     public BaseDatabase dbManager = Configuration.getDb();
-
+    public EntityTypesEnum entityType = EntityTypesEnum.COURSE;
 
     public KursManager() {
     }
@@ -53,7 +54,7 @@ public class KursManager implements BaseManager {
 
     @Override
     public <T> T list() {
-        return this.dbManager.select("kurs");
+        return this.dbManager.select(this.entityType);
     }
 
     @Override

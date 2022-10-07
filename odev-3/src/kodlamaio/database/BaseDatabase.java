@@ -2,14 +2,15 @@ package kodlamaio.database;
 
 import kodlamaio.entity.KursKategoriEntity;
 import kodlamaio.entity.KursProgramEntity;
+import kodlamaio.models.EntityTypesEnum;
 import kodlamaio.utils.Tool;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class BaseDatabase {
-    List<KursProgramEntity> kurs = new ArrayList<KursProgramEntity>();
-    List<KursKategoriEntity> kursKategoriEntity = new ArrayList<KursKategoriEntity>();
+    List<KursProgramEntity> kurs = new ArrayList<>();
+    List<KursKategoriEntity> kursKategoriEntity = new ArrayList<>();
 
     public void connect() {
         Tool.print("connect");
@@ -33,20 +34,15 @@ public class BaseDatabase {
         Tool.print("remove where id=" + id);
     }
 
-    public <T> T select(String entityName) {
-        T entityObj = null;
-        switch (entityName) {
-            case "kurs":
-                entityObj = (T) this.kurs;
-                break;
-            case "kategori":
-                entityObj = (T) this.kursKategoriEntity;
-                break;
-        }
-        return entityObj;
+    public <T> T select(EntityTypesEnum entityName) {
+        return switch (entityName) {
+            case COURSE -> (T) this.kurs;
+            case CATEGORY -> (T) this.kursKategoriEntity;
+            default -> null;
+        };
     }
 
-    public <T> T selectFind(String entityName, int id) {
+    public <T> T selectFind(EntityTypesEnum entityName, int id) {
         ArrayList<T> entityList = select(entityName);
         T findObj = null;
         for (int i = 0; i < entityList.size(); i++) {
