@@ -5,10 +5,12 @@ import kodlamaio.database.BaseDatabase;
 import kodlamaio.entity.BaseEntity;
 import kodlamaio.entity.KursKategoriEntity;
 import kodlamaio.entity.KursProgramEntity;
+import kodlamaio.models.EntityTypesEnum;
 import kodlamaio.utils.Tool;
 
 public class KategoryManager implements BaseManager {
     public BaseDatabase dbManager = Configuration.getDb();
+    private EntityTypesEnum entityType = EntityTypesEnum.CATEGORY;
     private int id;
     private String name;
 
@@ -31,12 +33,13 @@ public class KategoryManager implements BaseManager {
 
     @Override
     public void remove(int id) {
-
+        this.dbManager.connect();
+        this.dbManager.remove(id);
     }
 
     @Override
     public <T> T list() {
-        return null;
+        return this.dbManager.select(this.entityType);
     }
 
     @Override
