@@ -1,0 +1,36 @@
+package kodlamaio.Devs.entities.conceretes;
+
+
+import kodlamaio.Devs.entities.OperationResult;
+
+public class Language {
+    private int id;
+    private String name;
+
+    OperationResult result;
+
+    public Language(){
+        super();
+    }
+
+    public Language(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
