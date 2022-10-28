@@ -8,5 +8,10 @@ import java.util.List;
 @Repository
 public interface UserRepository {
     List<User> getAll();
+
     void delete(User user);
+
+    void update(User user);
+
+    void add(User user);
 }

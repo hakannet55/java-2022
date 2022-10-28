@@ -2,6 +2,7 @@ package kodlamaio.Devs.dataAccess.concretes;
 
 import kodlamaio.Devs.dataAccess.abstracts.LanguageRepository;
 import kodlamaio.Devs.entities.conceretes.Language;
+import kodlamaio.Devs.entities.conceretes.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -23,6 +24,21 @@ public class InMemoryLanguageRepository implements LanguageRepository {
 
     public List<Language> getAll() {
         return brandsData;
+    }
+
+    @Override
+    public void delete(User user) {
+
+    }
+
+    @Override
+    public void update(User user) {
+
+    }
+
+    @Override
+    public void add(User user) {
+
     }
 
     public void remove(Language language) {

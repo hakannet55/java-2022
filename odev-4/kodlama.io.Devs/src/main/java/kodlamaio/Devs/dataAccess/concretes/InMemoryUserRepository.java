@@ -28,7 +28,14 @@ public class InMemoryUserRepository implements UserRepository {
 
     }
 
-    public void remove(Language language) {
+    @Override
+    public void update(User user) {
 
     }
+
+    @Override
+    public void add(User user) {
+
+    }
+
 }
