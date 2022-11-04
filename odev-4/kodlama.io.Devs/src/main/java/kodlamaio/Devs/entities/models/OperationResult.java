@@ -1,4 +1,4 @@
-package kodlamaio.Devs.entities;
+package kodlamaio.Devs.entities.models;
 
 import java.util.Optional;
 

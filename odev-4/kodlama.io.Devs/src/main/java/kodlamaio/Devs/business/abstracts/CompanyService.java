@@ -1,14 +1,14 @@
 package kodlamaio.Devs.business.abstracts;
 
-import kodlamaio.Devs.entities.GenericResponse;
+import kodlamaio.Devs.entities.models.GenericResponse;
 import kodlamaio.Devs.entities.conceretes.Company;
-import kodlamaio.Devs.entities.conceretes.Language;
-import kodlamaio.Devs.entities.conceretes.User;
 
 import java.util.List;
 
 public interface CompanyService {
     List<Company> getAll();
+
+    Company getById(int id);
 
     GenericResponse add(Company company);
 

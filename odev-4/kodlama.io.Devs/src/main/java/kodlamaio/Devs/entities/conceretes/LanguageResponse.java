@@ -1,6 +1,6 @@
 package kodlamaio.Devs.entities.conceretes;
 
-import kodlamaio.Devs.entities.OperationResult;
+import kodlamaio.Devs.entities.models.OperationResult;
 
 import java.util.List;
 

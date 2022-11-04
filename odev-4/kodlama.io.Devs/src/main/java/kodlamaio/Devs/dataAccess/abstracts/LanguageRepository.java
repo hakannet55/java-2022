@@ -8,9 +8,10 @@ import java.util.List;
 public interface LanguageRepository {
     List<Language> getAll();
 
-    void delete(User user);
+    Language getById(int id);
+    void delete(Language language);
 
-    void update(User user);
+    void update(Language language);
 
-    void add(User user);
+    void add(Language language);
 }
