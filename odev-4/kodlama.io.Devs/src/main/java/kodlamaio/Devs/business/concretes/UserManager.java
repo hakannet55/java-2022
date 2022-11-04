@@ -2,7 +2,7 @@ package kodlamaio.Devs.business.concretes;
 
 import kodlamaio.Devs.business.RuleEngineService;
 import kodlamaio.Devs.business.abstracts.UserService;
-import kodlamaio.Devs.dataAccess.concretes.InMemoryUserRepository;
+import kodlamaio.Devs.dataAccess.inmemory.InMemoryUserRepository;
 import kodlamaio.Devs.entities.RuleTypesEnum;
 import kodlamaio.Devs.entities.conceretes.User;
 import kodlamaio.Devs.entities.models.GenericResponse;

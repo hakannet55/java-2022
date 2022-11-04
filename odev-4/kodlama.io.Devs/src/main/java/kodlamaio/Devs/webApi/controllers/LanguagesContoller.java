@@ -1,13 +1,12 @@
 package kodlamaio.Devs.webApi.controllers;
 
 import kodlamaio.Devs.business.abstracts.LanguageService;
-import kodlamaio.Devs.entities.models.GenericResponse;
-import kodlamaio.Devs.entities.models.OperationResult;
+import kodlamaio.Devs.business.requests.AddSubTechnologyRequest;
+import kodlamaio.Devs.business.requests.LanguageAddRequest;
+import kodlamaio.Devs.business.responses.LanguageResponse;
 import kodlamaio.Devs.entities.conceretes.Language;
-import kodlamaio.Devs.entities.conceretes.LanguageResponse;
+import kodlamaio.Devs.entities.models.OperationResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,44 +22,43 @@ public class LanguagesContoller {
     }
 
     @GetMapping("/getAll")
-    public List<Language> getAll() {
+    public List<LanguageResponse> getAll() {
         return languageService.getAll();
     }
 
     @GetMapping("/getAll_v2")
-    public List<Language> getAllv2() {
-        LanguageResponse response = new LanguageResponse();
-        response.setDataList(languageService.getAll());
-        response.setResult(new OperationResult(null, "Success"));
+    public List<LanguageResponse> getAllv2() {
+        //LanguageResponse response = new LanguageResponse();
+        //response.setDataList(languageService.getAll());
+        //response.setResult(new OperationResult(null, "Success"));
         return languageService.getAll();
     }
 
     @PutMapping("/add")
-    List<Language> add(@RequestBody Language language) {
+    List<LanguageResponse> add(@RequestBody LanguageAddRequest language) {
         this.languageService.add(language);
         return this.languageService.getAll();
     }
 
-    @GetMapping("/getById/{id}")
-    Language getById(@PathVariable int id) {
-        List<Language> list = this.languageService.getAll();
-        return list.stream().filter(i -> i.getId() == id).findAny()
-                .orElse(null);
+    @GetMapping("/get/{id}")
+    LanguageResponse getById(@PathVariable Integer id) {
+        return this.languageService.getById(id);
     }
 
     @PostMapping("/update")
-    public GenericResponse update(@RequestBody Language language) {
-         this.languageService.update(language);
-        return new GenericResponse(200);
+    public void update(@RequestBody Language language) {
+        this.languageService.update(language);
+    }
+
+
+    @PostMapping("/addSubTechnology")
+    public void update(@RequestBody AddSubTechnologyRequest addSubTechnologyRequest) {
+
+        this.languageService.addSubTechnology(addSubTechnologyRequest);
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<GenericResponse> delete(@PathVariable int id) {
-        Language language = new Language(id, null);
-        try {
-            return new ResponseEntity<GenericResponse>(this.languageService.delete(language), HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<GenericResponse>(new GenericResponse(0), HttpStatus.EXPECTATION_FAILED);
-        }
+    public void delete(@PathVariable Integer id) {
+        this.languageService.delete(id);
     }
 }

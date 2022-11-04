@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="spring-boot-2-CRUD">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/abstracts/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/abstracts/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/abstracts/LanguageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/abstracts/LanguageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/abstracts/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/abstracts/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/concretes/CompanyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/concretes/CompanyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/concretes/LanguageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/concretes/LanguageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/concretes/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/business/concretes/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/abstracts/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/abstracts/CompanyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/abstracts/LanguageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/abstracts/LanguageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/abstracts/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/abstracts/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/concretes/InMemoryCompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/concretes/InMemoryCompanyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/concretes/InMemoryLanguageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/concretes/InMemoryLanguageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/concretes/InMemoryUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/dataAccess/concretes/InMemoryUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/entities/GenericResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/entities/OperationResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/entities/conceretes/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/entities/conceretes/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/entities/conceretes/LanguageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/entities/conceretes/LanguageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/webApi/controllers/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/webApi/controllers/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/webApi/controllers/LanguagesContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/webApi/controllers/LanguagesContoller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/webApi/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/odev-4/kodlama.io.Devs/src/main/java/kodlamaio/Devs/webApi/controllers/UsersController.java" afterDir="false" />
-    </list>
+    <list default="true" id="362d01c3-f888-4b56-ab23-45dc854ed0a2" name="Changes" comment="spring-boot-2-CRUD" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/hakan.kuru/Desktop/java-2022/rentCar",
+    "last_opened_file_path": "C:/Users/hakan.kuru/Desktop/java-2022/odev-4/kodlama.io.Devs",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
@@ -237,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666965530820</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="spring-boot-2-CRUD">
+      <created>1667594291862</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667594291862</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
