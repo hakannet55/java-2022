@@ -1,19 +1,26 @@
 package kodlamaio.Devs.business.abstracts;
 
-import kodlamaio.Devs.entities.models.GenericResponse;
+import kodlamaio.Devs.business.requests.AddSubTechnologyRequest;
+import kodlamaio.Devs.business.requests.LanguageAddRequest;
+import kodlamaio.Devs.business.responses.LanguageResponse;
 import kodlamaio.Devs.entities.conceretes.Language;
 
 import java.util.List;
 
 public interface LanguageService {
-    List<Language> getAll();
+    List<LanguageResponse> getAll();
 
-    Language getById(int id);
+    LanguageResponse getById(Integer id);
 
-    GenericResponse add(Language language);
+    void add(LanguageAddRequest language);
 
-    GenericResponse update(Language language);
+    void update(Language language);
 
-    GenericResponse delete(Language language);
+    void delete(Integer id);
 
+    void addSubTechnology(AddSubTechnologyRequest addSubTechnologyRequest);
+
+    void removeSubTechnology(Integer languageId, Integer techId);
+
+    void getSubTechnology(Integer languageId);
 }
