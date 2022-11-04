@@ -1,7 +1,7 @@
 package kodlamaio.Devs.entities.conceretes;
 
 
-import kodlamaio.Devs.entities.OperationResult;
+import kodlamaio.Devs.entities.models.OperationResult;
 
 public class Language {
     private int id;

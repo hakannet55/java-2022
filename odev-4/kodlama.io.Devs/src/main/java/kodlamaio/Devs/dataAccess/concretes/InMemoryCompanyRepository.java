@@ -2,6 +2,7 @@ package kodlamaio.Devs.dataAccess.concretes;
 
 import kodlamaio.Devs.dataAccess.abstracts.CompanyRepository;
 import kodlamaio.Devs.entities.conceretes.Company;
+import kodlamaio.Devs.entities.conceretes.Language;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -23,14 +24,24 @@ public class InMemoryCompanyRepository implements CompanyRepository {
     }
 
     @Override
+    public Company getById(int id) {
+          return this.companyList.stream().filter(c -> c.getId() == id).toList().get(0);
+    }
+
+    @Override
     public void delete(Company company) {
-        this.companyList = companyList.stream().filter(c -> c.getId() == company.getId()).toList();
+        this.companyList = companyList.stream().filter(c -> c.getId() != company.getId()).toList();
     }
 
     @Override
     public void update(Company company) {
-        int findIndex = companyList.indexOf(company);
-        companyList.set(findIndex, company);
+        int index = 0;
+        for (Company c : companyList) {
+            if (c.getId() == company.getId()) {
+                companyList.set(index, company);
+            }
+            index++;
+        }
     }
 
     @Override

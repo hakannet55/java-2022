@@ -2,7 +2,7 @@ package kodlamaio.Devs.business.concretes;
 
 import kodlamaio.Devs.business.abstracts.CompanyService;
 import kodlamaio.Devs.dataAccess.concretes.InMemoryCompanyRepository;
-import kodlamaio.Devs.entities.GenericResponse;
+import kodlamaio.Devs.entities.models.GenericResponse;
 import kodlamaio.Devs.entities.conceretes.Company;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +22,13 @@ public class CompanyManager implements CompanyService {
     }
 
     @Override
+    public Company getById(int id) {
+        return this.inMemoryCompanyRepository.getById(id);
+    }
+
+    @Override
     public GenericResponse add(Company company) {
+        this.inMemoryCompanyRepository.add(company);
         return new GenericResponse(200);
     }
 
@@ -34,6 +40,10 @@ public class CompanyManager implements CompanyService {
 
     @Override
     public GenericResponse delete(Company company) {
+        if (company == null) {
+            throw new Error("Error-null");
+        }
+        this.inMemoryCompanyRepository.delete(company);
         return new GenericResponse(200);
     }
 }

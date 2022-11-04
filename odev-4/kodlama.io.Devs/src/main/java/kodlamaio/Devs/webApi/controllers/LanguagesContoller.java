@@ -1,14 +1,15 @@
 package kodlamaio.Devs.webApi.controllers;
 
 import kodlamaio.Devs.business.abstracts.LanguageService;
-import kodlamaio.Devs.entities.OperationResult;
+import kodlamaio.Devs.entities.models.GenericResponse;
+import kodlamaio.Devs.entities.models.OperationResult;
 import kodlamaio.Devs.entities.conceretes.Language;
 import kodlamaio.Devs.entities.conceretes.LanguageResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.function.EntityResponse;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.List;
 
 @RestController
@@ -17,7 +18,7 @@ public class LanguagesContoller {
     private final LanguageService languageService;
 
     @Autowired
-    public LanguagesContoller(kodlamaio.Devs.business.abstracts.LanguageService languageService) {
+    public LanguagesContoller(LanguageService languageService) {
         this.languageService = languageService;
     }
 
@@ -34,13 +35,32 @@ public class LanguagesContoller {
         return languageService.getAll();
     }
 
-    @PutMapping("/update")
-    public Language update(@RequestBody Language language){
-        return language;
+    @PutMapping("/add")
+    List<Language> add(@RequestBody Language language) {
+        this.languageService.add(language);
+        return this.languageService.getAll();
     }
 
-    @DeleteMapping("/delete")
-    public Language delete(@RequestBody Language language){
-        return language;
+    @GetMapping("/getById/{id}")
+    Language getById(@PathVariable int id) {
+        List<Language> list = this.languageService.getAll();
+        return list.stream().filter(i -> i.getId() == id).findAny()
+                .orElse(null);
+    }
+
+    @PostMapping("/update")
+    public GenericResponse update(@RequestBody Language language) {
+         this.languageService.update(language);
+        return new GenericResponse(200);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<GenericResponse> delete(@PathVariable int id) {
+        Language language = new Language(id, null);
+        try {
+            return new ResponseEntity<GenericResponse>(this.languageService.delete(language), HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<GenericResponse>(new GenericResponse(0), HttpStatus.EXPECTATION_FAILED);
+        }
     }
 }

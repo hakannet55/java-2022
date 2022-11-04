@@ -1,4 +1,4 @@
-package kodlamaio.Devs.entities;
+package kodlamaio.Devs.entities.models;
 
 public class GenericResponse {
     private int status;

@@ -9,6 +9,8 @@ import java.util.List;
 public interface UserRepository {
     List<User> getAll();
 
+    User getById(int id);
+
     void delete(User user);
 
     void update(User user);

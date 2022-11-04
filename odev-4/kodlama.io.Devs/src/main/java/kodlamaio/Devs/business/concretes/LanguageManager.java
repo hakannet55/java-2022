@@ -2,7 +2,7 @@ package kodlamaio.Devs.business.concretes;
 
 import kodlamaio.Devs.business.abstracts.LanguageService;
 import kodlamaio.Devs.dataAccess.abstracts.LanguageRepository;
-import kodlamaio.Devs.entities.GenericResponse;
+import kodlamaio.Devs.entities.models.GenericResponse;
 import kodlamaio.Devs.entities.conceretes.Language;
 import org.springframework.stereotype.Service;
 
@@ -19,21 +19,29 @@ public class LanguageManager implements LanguageService {
     @Override
     public List<Language> getAll() {
         // iş kuralları
-        return languageRepository.getAll();
+        return this.languageRepository.getAll();
+    }
+
+    @Override
+    public Language getById(int id) {
+        return this.languageRepository.getById(id);
     }
 
     @Override
     public GenericResponse add(Language language) {
+        this.languageRepository.add(language);
         return new GenericResponse(200);
     }
 
     @Override
     public GenericResponse update(Language language) {
+        this.languageRepository.update(language);
         return new GenericResponse(200);
     }
 
     @Override
     public GenericResponse delete(Language language) {
+        this.languageRepository.delete(language);
         return new GenericResponse(200);
     }
 }

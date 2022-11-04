@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository // dataAcces nesnesidir
-public class InMemoryBrandRepository implements BrandRepository {
+public class InMemoryBrandRepository {
     List<Brand> brandsData;
 
     public InMemoryBrandRepository() {
